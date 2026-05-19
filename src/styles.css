@@ -1,0 +1,107 @@
+body {
+  background-color: #f5f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar-custom {
+  background: linear-gradient(90deg, #000000, #111827);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* HERO */
+
+.hero {
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.hero img {
+  border-radius: 15px;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+}
+
+/* TITULOS */
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* PRODUCTOS */
+
+.product-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.product-price {
+  color: #198754;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* CARDS */
+
+.custom-card {
+  border: none;
+  border-radius: 15px;
+}
+
+/* BOTONES */
+
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-success {
+  border: none;
+}
+
+.btn-dark {
+  border: none;
+}
+
+/* FORMULARIOS */
+
+.form-control {
+  border-radius: 10px;
+}
+
+textarea.form-control {
+  min-height: 120px;
+}
