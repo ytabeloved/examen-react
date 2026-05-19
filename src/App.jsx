@@ -1,4 +1,4 @@
-import Navbar from "./components/NavBar";
+import Navbar from "./Components/Menu";
 import Home from "./pages/Home";
 
 function App() {
