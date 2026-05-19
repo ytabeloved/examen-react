@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import ListaProductos from "../components/ListaProductos";
-import Carrito from "../components/Carrito";
-import Formulario from "../components/Formulario";
-import Login from "../components/Login";
+import ListaProductos from "../Components/ListaProductos";
+import Carrito from "../Components/Carrito";
+import Formulario from "../Components/Formulario";
+import Login from "../Components/Login";
 
 function Home() {
 
